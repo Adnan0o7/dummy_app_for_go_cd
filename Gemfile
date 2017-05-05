@@ -38,6 +38,9 @@ gem 'nokogiri', '1.6.8'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'simplecov', '~> 0.9.1'
+  gem 'brakeman', '1.8.3'
+  gem 'rails_best_practices', '1.2.0'
 end
 
 group :test do
